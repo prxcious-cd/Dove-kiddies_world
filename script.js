@@ -42,7 +42,7 @@ const products = [
     name: "Organic Cotton Onesie Pack",
     price: 9500,
     desc: "Pack of 3 organic cotton onesies, gentle on delicate skin.",
-    img: "https://images.unsplash.com/photo-1492725764893-90b379c2b6e7?q=80&w=600&auto=format&fit=crop"
+    img: "37d7a45231071b045d91ba49fe6afc60.jpg"
   },
   {
     id: 6,
