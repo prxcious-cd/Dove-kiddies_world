@@ -63,7 +63,7 @@ const products = [
     name: "Knit Cardigan",
     price: 9000,
     desc: "Warm knit cardigan, ideal layering piece for cooler evenings.",
-    img: "https://images.unsplash.com/photo-1519689680058-324335c77eba?q=80&w=600&auto=format&fit=crop"
+    img: "abe02456e34b319b914926ae0d5beee1.jpg"
   },
   {
     id: 9,
