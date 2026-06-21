@@ -91,7 +91,7 @@ const products = [
     name: "Premium Swaddle Wrap",
     price: 7000,
     desc: "Ultra-soft muslin swaddle wrap for naptime comfort.",
-    img: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?q=80&w=600&auto=format&fit=crop"
+    img: "db2bc9f9912e0f8b8a89a53816b08ad7.jpg"
   }
 ];
 
