@@ -14,7 +14,7 @@ const products = [
     name: "Soft Knit Romper", // CHANGE PRODUCT NAME HERE
     price: 8500, // CHANGE PRODUCT PRICE HERE
     desc: "Breathable cotton romper, perfect for everyday baby comfort.",
-    img: "136d404df2ca29d884d7264c89756c88.jpg" // CHANGE PRODUCT IMAGE HERE
+    img: "https://images.unsplash.com/photo-1522771930-78848d9293e8?q=80&w=600&auto=format&fit=crop" // CHANGE PRODUCT IMAGE HERE
   },
   {
     id: 2,
