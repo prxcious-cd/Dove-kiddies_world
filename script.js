@@ -84,7 +84,7 @@ const products = [
     name: "Canvas Sneakers",
     price: 9500,
     desc: "Lightweight canvas sneakers built for first steps and play.",
-    img: "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=600&auto=format&fit=crop"
+    img: "4d7cc2b0b0b23d13da296e1d70921bda.jpg"
   },
   {
     id: 12,
