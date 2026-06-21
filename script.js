@@ -56,7 +56,7 @@ const products = [
     name: "Girls Floral Two-Piece",
     price: 10500,
     desc: "Lightweight floral top and skirt set for sunny days.",
-    img: "https://images.unsplash.com/photo-1503919005314-30d93d07d823?q=80&w=600&auto=format&fit=crop"
+    img: "5b90ebc697d9e62c95773dc387fc44a1.jpg"
   },
   {
     id: 8,
