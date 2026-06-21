@@ -1,1 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<!-- SEO -->
+<title>Dove Kiddies World | Premium Kiddies Fashion & Essentials, Ibadan</title>
+<meta name="description" content="Dove Kiddies World — premium fashion and everyday essentials for babies and children 0–5 years. Based in Odo Ona Kekere, Ibadan. Shop on WhatsApp today.">
+<meta name="theme-color" content="#FAF6EF">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Albert+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAVIGATION ============ -->
+<header class="nav-wrap" id="navWrap">
+  <nav class="nav container">
+    <a href="#home" class="logo">
+      <span class="logo-mark">✶</span>
+      <span class="logo-text">Dove Kiddies <em>World</em></span> <!-- CHANGE BUSINESS NAME HERE -->
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#collections">Collections</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <button class="cart-btn" id="cartBtn" aria-label="Open cart">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 4h2l2.4 12.4a2 2 0 0 0 2 1.6h7.2a2 2 0 0 0 2-1.6L21 8H6"/><circle cx="9.5" cy="20.5" r="1.3"/><circle cx="17.5" cy="20.5" r="1.3"/></svg>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero-inner container">
+    <div class="hero-copy reveal">
+      <p class="eyebrow">Premium Kiddies Fashion &amp; Essentials</p>
+      <h1>Premium Fashion &amp;<br>Essentials For <em>Little Ones</em></h1>
+      <p class="hero-sub">Beautifully selected clothing and essentials designed for comfort, style, and everyday happiness.</p>
+      <div class="hero-actions">
+        <a href="#collections" class="btn btn-primary">Shop Collection</a>
+        <a href="#contact" class="btn btn-outline">Contact Us</a>
+      </div>
+    </div>
+
+    <!-- CHANGE HERO IMAGE HERE -->
+    <div class="hero-art reveal">
+      <div class="hero-frame">
+        <img src="https://images.unsplash.com/photo-1522771930-78848d9293e8?q=80&w=1200&auto=format&fit=crop" alt="Smiling baby in soft premium clothing">
+      </div>
+      <div class="hero-ribbon" aria-hidden="true">
+        <svg viewBox="0 0 120 120" width="86" height="86"><path d="M60 10 C75 25, 75 45, 60 60 C45 45, 45 25, 60 10 Z" fill="none" stroke="#C9A35C" stroke-width="2"/><path d="M60 60 C75 75, 75 95, 60 110 C45 95, 45 75, 60 60 Z" fill="none" stroke="#C9A35C" stroke-width="2"/><circle cx="60" cy="60" r="6" fill="#C9A35C"/></svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURED CATEGORIES ============ -->
+<section class="section categories" id="collections">
+  <div class="container">
+    <p class="eyebrow center reveal">Shop By Collection</p>
+    <h2 class="section-title center reveal">Curated For Every Little Moment</h2>
+
+    <div class="cat-grid">
+      <a href="#products" class="cat-card reveal">
+        <img src="https://images.unsplash.com/photo-1492725764893-90b379c2b6e7?q=80&w=800&auto=format&fit=crop" alt="Baby wear collection">
+        <span class="cat-name">Baby Wear</span>
+      </a>
+      <a href="#products" class="cat-card reveal">
+        <img src="https://images.unsplash.com/photo-1503944168849-7f73c1f0c537?q=80&w=800&auto=format&fit=crop" alt="Boys collection">
+        <span class="cat-name">Boys Collection</span>
+      </a>
+      <a href="#products" class="cat-card reveal">
+        <img src="https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?q=80&w=800&auto=format&fit=crop" alt="Girls collection">
+        <span class="cat-name">Girls Collection</span>
+      </a>
+      <a href="#products" class="cat-card reveal">
+        <img src="https://images.unsplash.com/photo-1514090458221-65bb69cf63e6?q=80&w=800&auto=format&fit=crop" alt="Shoes and accessories">
+        <span class="cat-name">Shoes &amp; Accessories</span>
+      </a>
+      <a href="#products" class="cat-card reveal">
+        <img src="https://images.unsplash.com/photo-1556909114-44e3e70034e2?q=80&w=800&auto=format&fit=crop" alt="Kiddies essentials">
+        <span class="cat-name">Essentials</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURED PRODUCTS ============ -->
+<section class="section products" id="products">
+  <div class="container">
+    <p class="eyebrow center reveal">Best Sellers</p>
+    <h2 class="section-title center reveal">Featured Products</h2>
+    <div class="product-grid" id="productGrid"></div>
+  </div>
+</section>
+
+<!-- ============ WHY PARENTS CHOOSE US ============ -->
+<section class="section why">
+  <div class="container why-inner">
+    <div class="why-copy reveal">
+      <p class="eyebrow">Why Parents Trust Us</p>
+      <h2 class="section-title">Crafted With Care, <em>Chosen</em> With Love</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-card reveal">
+        <span class="why-icon">✓</span>
+        <h3>Premium Quality</h3>
+        <p>Every piece is selected for soft, durable fabric that holds up to little ones' adventures.</p>
+      </div>
+      <div class="why-card reveal">
+        <span class="why-icon">✓</span>
+        <h3>Affordable Luxury</h3>
+        <p>Boutique-level style and finishing, priced for everyday family life.</p>
+      </div>
+      <div class="why-card reveal">
+        <span class="why-icon">✓</span>
+        <h3>Carefully Selected Products</h3>
+        <p>Each item is hand-picked to be gentle on skin and easy to love.</p>
+      </div>
+      <div class="why-card reveal">
+        <span class="why-icon">✓</span>
+        <h3>Trusted Customer Service</h3>
+        <p>Friendly, responsive support from order to doorstep, every single time.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section about" id="about">
+  <div class="container about-inner">
+    <div class="about-art reveal">
+      <img src="https://images.unsplash.com/photo-1519689680058-324335c77eba?q=80&w=1000&auto=format&fit=crop" alt="Children in premium clothing playing together">
+    </div>
+    <div class="about-copy reveal">
+      <p class="eyebrow">Our Story</p>
+      <h2 class="section-title">About Dove Kiddies World</h2>
+      <p>Dove Kiddies World was founded on a simple belief: children deserve clothing that feels as good as it looks. From their very first outfit to their everyday essentials, every piece in our collection is chosen with comfort, quality, and gentle care in mind.</p>
+      <p>We work closely with trusted suppliers to bring families in Ibadan and beyond a thoughtfully curated selection of baby, toddler, boys' and girls' fashion — pieces designed to move, play, nap, and celebrate life's little moments in style.</p>
+      <p>Because at Dove Kiddies World, every smile begins with something soft, comfortable, and made with love.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REVIEWS ============ -->
+<section class="section reviews" id="reviews">
+  <div class="container">
+    <p class="eyebrow center reveal">Testimonials</p>
+    <h2 class="section-title center reveal">What Parents Are Saying</h2>
+
+    <!-- CHANGE TESTIMONIALS HERE -->
+    <div class="review-grid">
+      <div class="review-card reveal">
+        <div class="stars">★★★★★</div>
+        <p>"The quality is honestly better than what I see in big stores abroad. My daughter's romper still looks brand new after countless washes."</p>
+        <span class="reviewer">— Funmilayo A., Mother of one</span>
+      </div>
+      <div class="review-card reveal">
+        <div class="stars">★★★★★</div>
+        <p>"Fast WhatsApp ordering, friendly replies, and the cutest packaging. My twins' outfits arrived exactly as pictured."</p>
+        <span class="reviewer">— Tobi O., Father of twins</span>
+      </div>
+      <div class="review-card reveal">
+        <div class="stars">★★★★★</div>
+        <p>"I've ordered three times now and every single piece has been soft, well-stitched, and true to size. Dove Kiddies World is my go-to."</p>
+        <span class="reviewer">— Chiamaka N., Mother of two</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section faq">
+  <div class="container">
+    <p class="eyebrow center reveal">Good To Know</p>
+    <h2 class="section-title center reveal">Frequently Asked Questions</h2>
+
+    <div class="faq-list">
+      <details class="faq-item reveal" open>
+        <summary>How does delivery work?</summary>
+        <p>We deliver within Ibadan and ship nationwide across Nigeria. Delivery timing and fees are confirmed with you directly on WhatsApp once your order is placed.</p>
+      </details>
+      <details class="faq-item reveal">
+        <summary>How do I place an order?</summary>
+        <p>Add your favourite items to the cart, click checkout, and we'll generate a WhatsApp message with your order summary. Just hit send and our team will confirm payment and delivery details.</p>
+      </details>
+      <details class="faq-item reveal">
+        <summary>Are all products shown always available?</summary>
+        <p>We update our collection regularly. If an item you love is out of stock, message us on WhatsApp — we restock fast and can notify you.</p>
+      </details>
+      <details class="faq-item reveal">
+        <summary>What is your returns policy?</summary>
+        <p>If an item arrives damaged or incorrect, contact us within 48 hours of delivery and we'll arrange an exchange. Please ensure correct sizing is selected at checkout to avoid returns.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section contact" id="contact">
+  <div class="container contact-inner">
+    <div class="reveal">
+      <p class="eyebrow">Get In Touch</p>
+      <h2 class="section-title">We'd Love To Dress Your Little One</h2>
+      <p class="contact-text">Reach out on WhatsApp for fast replies, browse our latest looks on TikTok, or visit us in person.</p>
+    </div>
+
+    <div class="contact-grid">
+      <!-- CHANGE WHATSAPP HERE -->
+      <a class="contact-card reveal" href="https://wa.me/2348101011721" target="_blank" rel="noopener">
+        <span class="contact-icon">💬</span>
+        <h3>WhatsApp</h3>
+        <p>0810 101 1721</p>
+      </a>
+      <a class="contact-card reveal" href="https://www.tiktok.com/@dovedahlia_dd" target="_blank" rel="noopener">
+        <span class="contact-icon">🎵</span>
+        <h3>TikTok</h3>
+        <p>@dovedahlia_dd</p>
+      </a>
+      <div class="contact-card reveal">
+        <span class="contact-icon">📍</span>
+        <h3>Visit Us</h3>
+        <p>Odo Ona Kekere, Ibadan, Oyo State, Nigeria</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <span class="logo-text">Dove Kiddies <em>World</em></span>
+      <p>Where Little Smiles Begin</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <a href="#home">Home</a>
+      <a href="#collections">Collections</a>
+      <a href="#about">About</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <!-- CHANGE WHATSAPP HERE -->
+      <a href="https://wa.me/2348101011721" target="_blank" rel="noopener">WhatsApp: 0810 101 1721</a>
+      <a href="https://www.tiktok.com/@dovedahlia_dd" target="_blank" rel="noopener">TikTok: @dovedahlia_dd</a>
+      <span>Odo Ona Kekere, Ibadan, Oyo State</span>
+    </div>
+  </div>
+  <div class="footer-bottom container">
+    <span>&copy; <span id="year"></span> Dove Kiddies World. All rights reserved.</span>
+  </div>
+</footer>
+
+<!-- ============ CART DRAWER ============ -->
+<div class="cart-overlay" id="cartOverlay"></div>
+<aside class="cart-drawer" id="cartDrawer">
+  <div class="cart-head">
+    <h3>Your Cart</h3>
+    <button id="cartClose" aria-label="Close cart">✕</button>
+  </div>
+  <div class="cart-items" id="cartItems">
+    <p class="cart-empty" id="cartEmpty">Your cart is empty. Start adding some little favourites!</p>
+  </div>
+  <div class="cart-foot">
+    <div class="cart-total">
+      <span>Total</span>
+      <span id="cartTotal">₦0</span>
+    </div>
+    <button class="btn btn-primary cart-checkout" id="checkoutBtn">Checkout on WhatsApp</button>
+  </div>
+</aside>
+
+<a href="https://wa.me/2348101011721" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"> <!-- CHANGE WHATSAPP NUMBER HERE -->
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.84.5 3.55 1.36 5.03L2 22l5.25-1.38c1.42.78 3.04 1.22 4.79 1.22 5.46 0 9.91-4.45 9.91-9.91C21.95 6.45 17.5 2 12.04 2zm5.71 14.02c-.24.67-1.4 1.32-1.93 1.4-.49.07-1.11.1-1.79-.11-.41-.13-.94-.3-1.62-.6-2.85-1.23-4.71-4.1-4.85-4.29-.14-.19-1.16-1.54-1.16-2.94 0-1.4.73-2.08.99-2.37.26-.28.57-.36.76-.36h.55c.18 0 .42-.07.65.5.24.58.8 2 .87 2.15.07.14.12.31.02.5-.1.19-.15.31-.3.48-.14.17-.31.37-.44.5-.14.14-.29.29-.13.57.17.28.74 1.22 1.59 1.97 1.09.97 2 1.27 2.29 1.41.29.14.46.12.63-.07.17-.19.72-.84.91-1.13.19-.29.39-.24.65-.14.27.1 1.69.8 1.98.94.29.14.48.21.55.33.07.12.07.69-.17 1.36z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+                                                                                                               </html>
