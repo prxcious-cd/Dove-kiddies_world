@@ -21,7 +21,7 @@ const products = [
     name: "Linen Boys Shirt Set",
     price: 12000,
     desc: "Two-piece linen shirt and shorts set for stylish little gentlemen.",
-    img: "https://images.unsplash.com/photo-1503944168849-7f73c1f0c537?q=80&w=600&auto=format&fit=crop"
+    img: "136d404df2ca29d884d7264c89756c88.jpg"
   },
   {
     id: 3,
