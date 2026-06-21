@@ -28,7 +28,7 @@ const products = [
     name: "Tulle Party Dress",
     price: 15500,
     desc: "Elegant tulle dress with satin sash for special occasions.",
-    img: "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?q=80&w=600&auto=format&fit=crop"
+    img: "5b90ebc697d9e62c95773dc387fc44a1.jpg"
   },
   {
     id: 4,
