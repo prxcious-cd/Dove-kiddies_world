@@ -70,7 +70,7 @@ const products = [
     name: "Everyday Jersey Set",
     price: 8000,
     desc: "Comfortable jersey top and trouser set for daily play.",
-    img: "https://images.unsplash.com/photo-1576858574144-9ae1ebcf5ae5?q=80&w=600&auto=format&fit=crop"
+    img: "fe4266242e7d03b8ecd94ab2e4fcabfc.jpg"
   },
   {
     id: 10,
