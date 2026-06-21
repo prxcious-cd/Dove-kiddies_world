@@ -77,7 +77,7 @@ const products = [
     name: "Bow Headband Set",
     price: 4500,
     desc: "Set of 3 soft bow headbands in soft neutral tones.",
-    img: "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?q=80&w=600&auto=format&fit=crop"
+    img: "c571072e5ed955e393329af4cf3d82ec.jpg"
   },
   {
     id: 11,
