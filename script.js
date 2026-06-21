@@ -35,7 +35,7 @@ const products = [
     name: "Premium Baby Booties",
     price: 6000,
     desc: "Soft-sole booties designed for tiny, comfortable feet.",
-    img: "https://images.unsplash.com/photo-1514090458221-65bb69cf63e6?q=80&w=600&auto=format&fit=crop"
+    img: "535cb236b17535009ab4070db9b6c774.jpg"
   },
   {
     id: 5,
