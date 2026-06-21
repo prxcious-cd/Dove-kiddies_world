@@ -49,7 +49,7 @@ const products = [
     name: "Toddler Denim Overalls",
     price: 11000,
     desc: "Durable, soft denim overalls built for active toddlers.",
-    img: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=600&auto=format&fit=crop"
+    img: "37d7a45231071b045d91ba49fe6afc60.jpg"
   },
   {
     id: 7,
